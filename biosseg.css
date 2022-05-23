@@ -50,3 +50,8 @@ h1 {
     font-size: 18px;
     text-align: center; 
 }
+
+.bioseg-list {
+    padding-right: 50px;
+    padding-left: 50px
+}
