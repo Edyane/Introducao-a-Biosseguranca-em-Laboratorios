@@ -19,7 +19,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Bootstrap](https://getbootstrap.com/)
 - [Flaticon](https://www.flaticon.com/br/)
 - [Pexels](https://www.pexels.com/pt-br/)
-<br>
+
 
 
 ### ✍ Autor:
