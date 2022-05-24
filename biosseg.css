@@ -55,3 +55,15 @@ h1 {
     padding-right: 50px;
     padding-left: 50px
 }
+
+footer {
+	text-align: center;
+	background: #003a7a;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
