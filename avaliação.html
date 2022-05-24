@@ -1,12 +1,243 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avaliação</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="avaliação.css" />
 </head>
+
 <body>
-    
+
+    <header id="home">
+        <div class="caixa">
+            <h1><img class="img-logo" src="imagens/logo.png"></h1>
+        </div>
+
+        <div>
+            <nav class="nav-bg">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#estrutura">Estrutura do Curso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cibio.html" target="_blank">Cibio FM-UnB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="biosseg.html" target="_blank">Conceitos Gerais em Biossegurança</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avaliação.html">Avaliação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="declaração.html">Declaração de Responsabilidade</a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <div>
+                    <p class="title-cibio">AVALIAÇÃO</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="obj-text">
+                <div>
+                    <form id="questionario" name="nome do questionario" method="post" action="resposta.php">
+                        <p><b>1):</b> 
+                            Considere os laboratórios de experimentação animal, que envolvem práticas
+                            para o trabalho com agentes associados a doenças humanas, indicados para
+                            riscos advindo da ingestão e exposição da membrana mucosa e cutânea. As barreiras
+                            secundárias nesse tipo de laboratório e o respectivo Nível de Biossegurança Animal
+                            (NBA) estão corretas e respectivamente descritos em:
+                        </p>
+                    
+                        <label>
+                            <input type="radio" name="questao1" value="a" /> A) as portas externas trancadas
+                            automaticamente, aviso de risco biológico na entrada da porta da sala de animais,
+                            os ralos deverão conter água com desinfetante, a dependência deverá ter uma pia
+                            para lavagem de mãos; NBA-1.</label>
+                        <br/>
+                        <label>
+                            <input type="radio" name="questao1" value="b" /> B) o acesso às dependências deverá
+                            ser limitado através de porta hermeticamente fechada e trancada automaticamente,
+                            o ar exaurido deverá ser jogado para fora do prédio, deverá existir uma autoclave
+                            dentro do laboratório para descontaminação do lixo infeccioso; NBA -2.</label>
+                        <br/>
+                        <label>
+                            <input type="radio" name="questao1" value="c" /> C) o acesso às dependências deverá 
+                            ser limitado com portas com sistema de inter- travamento, leitura ótica ou cartão
+                            magnético, a entrada para as salas dos animais deverá ter uma antecâmara pressurizada
+                            com chuveiro, o sistema de entrada de ar e exaustão devem ter o fluxo direcionado; 
+                            NBA-3.</label>
+                        <br/>
+                        <label>
+                            <input type="radio" name="questao1" value="d" /> D)  os laboratórios deverão estar
+                            separados do prédio em área isolada, possuir autoclave de duas portas, tanque de
+                            imersão, uma câmara de fumigação, fluxo de ar direcionado com sistema de alarme
+                            para indicar irregularidades; NBA-4.</label>
+                        <br/>
+                        <br/>
+
+                        <form id="questionario" name="nome do questionario" method="post" action="resposta.php">
+                            <p><b>2):</b> O nível de biossegurança 4 (NB4), está relacionado aos riscos associados a manipulação
+                                e manutenção de agentes e os procedimentos em laboratórios:
+                            </p>
+                        
+                            <label>
+                                <input type="radio" name="questao1" value="a" /> A) clínicos, de diagnóstico, ensino e
+                                pesquisa ou de produção onde o trabalho com patógenos que possam causar doenças
+                                hipocinéticas.</label>
+                            <br/>
+                            <label>
+                                <input type="radio" name="questao1" value="b" /> B) onde o trabalho é realizado com um maior
+                                espectro de agentes nativos de risco moderado, presentes na comunidade e que estejam
+                                associados a uma patologia humana de gravidade variável.</label>
+                            <br/>
+                            <label>
+                                <input type="radio" name="questao1" value="c" /> C) onde o trabalho que envolve agentes exóticos
+                                e perigosos, exponha o indivíduo a um alto risco de contaminação de infecções que podem ser
+                                fatais, além de apresentarem um potencial elevado de transmissão por aerossóis.</label>
+                            <br/>
+                            <label>
+                                <input type="radio" name="questao1" value="d" /> D) em que as práticas, os equipamentos
+                                de segurança e o projeto das instalações são apropriados para o treinamento educacional
+                                secundário ou para o treinamento de técnicos e de professores de técnicas laboratoriais.</label>
+                            <br/>
+                            <br/>
+
+                            <form id="questionario" name="nome do questionario" method="post" action="resposta.php">
+                                <p><b>3):</b> O nível de segurança é baseado nas atividades associadas ao crescimento, manipulação
+                                e concentração de agentes infecciosos. O agente Bordetella pertussis, causador da coqueluche,
+                                é um patógeno que se apresenta no sistema respiratório humano . As práticas e os equipamentos
+                                para a manipulação desse patógeno é recomendado ao X , enquanto a produção de grandes volumes
+                                de toxinas e/ou culturas concentradas desse patógeno é recomendado ao Y .Os espaços X e Y 
+                                do texto podem ser substituídos, respectivamente, por:
+                                </p>
+                            
+                                <label>
+                                    <input type="radio" name="questao1" value="a" /> A) NB 1 e NB 2.</label>
+                                <br/>
+                                <label>
+                                    <input type="radio" name="questao1" value="b" /> B) NB 1 e NB 4.</label>
+                                <br/>
+                                <label>
+                                    <input type="radio" name="questao1" value="c" /> C) NB 3 e NB 4.</label>
+                                <br/>
+                                <label>
+                                    <input type="radio" name="questao1" value="d" /> D) NB 2 e NB 3.</label>
+                                <br/>
+                                <br/>
+
+                                <form id="questionario" name="nome do questionario" method="post" action="resposta.php">
+                                    <p><b>4):</b> A RDC Nº 306, de 7 de Dezembro de 2004, dispõe sobre o Regulamento Técnico para
+                                    o Gerenciamento de Resíduos de Serviços de Saúde que se constitui em um conjunto de
+                                    procedimentos de gestão. Segundo essa resolução, o descarte de recipientes contendo
+                                    fezes, urina e secreções, que não apresentem relevância epidemiológica e risco de
+                                    disseminação, ou microrganismo causador de doença emergente que se torne epidemiologicamente
+                                    importante, está corretamente descrito em:
+                                    </p>
+                                
+                                    <label>
+                                        <input type="radio" name="questao1" value="a" /> A) disposição, sem tratamento prévio, em local
+                                        devidamente licenciado para disposição final de RSS.</label>
+                                    <br/>
+                                    <label>
+                                        <input type="radio" name="questao1" value="b" /> B) encaminhamento imediato a um sistema de incineração
+                                        e posterior manejo e acondicionamento desses resíduos.</label>
+                                    <br/>
+                                    <label>
+                                        <input type="radio" name="questao1" value="c" /> C) tratamento térmico de cremação, em equipamento
+                                        devidamente licenciado para esse fim.</label>
+                                    <br/>
+                                    <label>
+                                        <input type="radio" name="questao1" value="d" /> D) tratamento obrigatório de processo físico ou outros 
+                                        processos para redução ou eliminação da carga microbiana.</label>
+                                    <br/>
+                                    <br/>
+
+                                    <form id="questionario" name="nome do questionario" method="post" action="resposta.php">
+                                        <p><b>5)</b>: Segundo Portaria N.º 485, de 11 de novembro de 2005 que aprova a Norma Regulamentadora
+                                        n.º 32 (Segurança e Saúde no Trabalho em Estabelecimentos de Saúde), é de responsabilidade
+                                        do trabalhador:
+                                        </p>
+                                    
+                                        <label>
+                                            <input type="radio" name="questao1" value="a" /> A) guardar documento comprobatório de vacinação
+                                            e mantê- lo disponível à inspeção do trabalho.</label>
+                                        <br/>
+                                        <label>
+                                            <input type="radio" name="questao1" value="b" /> B) o descarte de matérias perfurocortantes, em recipientes
+                                            rígidos, resistentes à punctura, ruptura e vazamento, com tampa e devidamente identificados.</label>
+                                        <br/>
+                                        <label>
+                                            <input type="radio" name="questao1" value="c" /> C) nformar, imediatamente, aos outros trabalhadores 
+                                            qualquer acidente ou incidente grave que possa provocar a disseminação de um agente biológico suscetível
+                                            de causar doenças graves nos seres humanos.</label>
+                                        <br/>
+                                        <label>
+                                            <input type="radio" name="questao1" value="d" /> D) buscar informações através de cursos de capacitação
+                                            sempre que ocorra uma mudança das condições de exposição aos agentes biológicos.</label>
+                                        <br/>
+                                        <br/>
+
+                                        <div class="btn-send">
+                                            <div class="container-fluid text-center">
+                                                <button type="button" class="btn btn-primary">Enviar</button>
+                                            </div>
+                                        </div>
+
+                    
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <br>
+        <p class="copyright">Campus Universitário Darcy Ribeiro, Brasília-DF | CEP: 70.910-900</p>
+        <p class="copyright">Faculdade de Medicina | Telefone: +55 (61) 3107.1701 | E-mail: fmd@unb.br</p>
+        <p class="copyright">&copy; Universidade de Brasília - 2022</p>
+        </p>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/c7a718ab03.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
