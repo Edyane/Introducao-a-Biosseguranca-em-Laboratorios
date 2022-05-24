@@ -20,6 +20,25 @@ body {
     filter:brightness(75%);
 }
 
+a:link {
+    color: green;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: green;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #000000;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: blue;
+ }
+
 .title-cibio {
     color: #003a7a;
     font-family: 'Fjalla One', sans-serif;
