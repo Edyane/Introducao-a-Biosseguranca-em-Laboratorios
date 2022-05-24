@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;   
+}
+
+body {
+    background: #eaeaea;
+}
+
+.img-logo {
+    padding: 20px;
+    width: 180px;
+    height: 75px;  
+    display: block;
+    margin: 0px auto; 
+    filter:brightness(75%);
+}
+
+a:link {
+    color: green;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: green;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #000000;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: blue;
+ }
+
+.title-cibio {
+    color: #003a7a;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+    text-align: center;   
+    text-transform: uppercase; 
+}
+
+footer {
+	text-align: center;
+	background: #003a7a;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
