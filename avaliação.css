@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #eaeaea;
+    background: #eaeaea;    
 }
 
 .img-logo {
@@ -45,6 +45,10 @@ a:link {
     font-size: 60px;
     text-align: center;   
     text-transform: uppercase; 
+}
+
+.forms {
+    padding: 50px;
 }
 
 .obj-text {
